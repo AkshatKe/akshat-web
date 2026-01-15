@@ -1,0 +1,90 @@
+#face {
+    height: 400px;
+    width: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+}
+.mouth {
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.lefteye, .righteye {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+}
+
+.lefteye {
+    left: 100px;
+}
+
+.righteye {
+    left: 250px;
+}
+.nose {
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: none;
+    border-left: none;
+    /* border-right: none; */
+    position: absolute;
+    left: 175px;
+    top: 150px;
+}
+
+.tongue {
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 32%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.teeth1 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    bottom: 74px;
+    border: 2px solid black;
+    border-radius: 0 0 25% 25%;
+}
+.teeth2 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 0 auto;
+    bottom: 117px;
+    left: 41px;
+    border: 2px solid black;
+    border-radius: 0 0 25% 25%;
+
+}
+
+.teeth3 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    bottom: 160px;
+    left: 37px;
+    border-radius: 0 0 25% 25%;
+}
