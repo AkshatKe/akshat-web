@@ -88,3 +88,21 @@
     left: 37px;
     border-radius: 0 0 25% 25%;
 }
+.eyeball {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    border-radius: 50%;
+}
+.eyeball2 {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    border-radius: 50%;
+}
